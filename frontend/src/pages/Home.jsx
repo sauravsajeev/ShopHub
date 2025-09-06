@@ -509,7 +509,7 @@ export default function Home() {
                   </div>
                 )}
 
-                {pagination.pages > 1 && (
+                {/* {pagination.pages > 1 && (
                   <div className="flex items-center justify-center gap-1 sm:gap-2 mt-6 sm:mt-8">
                     <button
                       onClick={() => updateFilter("page", Math.max(1, filters.page - 1))}
@@ -546,7 +546,7 @@ export default function Home() {
                       Next
                     </button>
                   </div>
-                )}
+                )} */}
               </>
             )}
           </main>
