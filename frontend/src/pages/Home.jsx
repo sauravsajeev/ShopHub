@@ -139,7 +139,7 @@ export default function Home() {
   const clearFilters = () => {
     setFilters({
       page: 1,
-      limit: 12,
+      limit: 30,
       min_price: "",
       max_price: "",
       category: "",
@@ -395,7 +395,7 @@ export default function Home() {
             </div>
           </aside>
 
-          <main className="flex-1 h-[calc(100vh-200px)] overflow-y-auto">
+          <main className="flex-1 ">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mb-4 sm:mb-6">
               <div className="flex items-center gap-3">
                 <button
