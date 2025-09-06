@@ -10,7 +10,7 @@ import cartRoutes from "./routes/cart.js";
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: 'https://68bc2ab5cd854e0008310659--wshophub.netlify.app',
+  origin: ['https://68bc2ab5cd854e0008310659--wshophub.netlify.app','https://wshophub.netlify.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
