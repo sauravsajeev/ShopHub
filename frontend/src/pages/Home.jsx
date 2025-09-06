@@ -24,7 +24,7 @@ export default function Home() {
   const nav = useNavigate()
   const [filters, setFilters] = useState({
     page: 1,
-    limit: 12,
+    limit: 30,
     min_price: "",
     max_price: "",
     category: "",
@@ -141,6 +141,7 @@ export default function Home() {
       page: 1,
       limit: 30,
       min_price: "",
+
       max_price: "",
       category: "",
       brand: "",
