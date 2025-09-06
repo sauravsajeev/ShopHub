@@ -395,7 +395,7 @@ export default function Home() {
             </div>
           </aside>
 
-          <main className="flex-1 ">
+          <main className="flex-1 h-[calc(100vh-200px)] overflow-y-auto">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mb-4 sm:mb-6">
               <div className="flex items-center gap-3">
                 <button
